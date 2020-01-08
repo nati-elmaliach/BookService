@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="SortingAlgorithems_jar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../SortingAlgorithems/out/artifacts/SortingAlgorithems_jar" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../SortingAlgorithems/out/artifacts/SortingAlgorithems_jar/SortingAlgorithems.jar!/" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../SortingAlgorithems/out/artifacts/SortingAlgorithems_jar" recursive="false" />
+  </library>
+</component>
