@@ -1,15 +1,28 @@
 package com.hit.dm;
 
 public class Book {
+
+    /*
+    * Feel free to add more fields to this class as needed.
+    */
     private String name;
+    static private int idCount = 1;
     private int id;
     private double review;
     private int year;
 
-    public Book(String name, int id, double review, int year) {
+    public Book(String name , double review, int year) {
         this.name = name;
-        this.id = id;
-        this.review = review;
+
+        // Increment the id for each new Book
+        this.id = idCount++;
+
+        // Max Review rate is 5
+        if(review <= 5)
+            this.review = review;
+        else
+            this.review = 5;
+
         this.year = year;
     }
 

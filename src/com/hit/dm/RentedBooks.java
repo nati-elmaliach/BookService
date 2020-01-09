@@ -4,6 +4,10 @@ import java.util.Date;
 
 public class RentedBooks {
 
+    /*
+     * Feel free to add more fields to this class as needed.
+     */
+
     private int bookId;
     private int customerId;
     private Date rentalStartingDate;

@@ -2,6 +2,10 @@ package com.hit.dm;
 
 public class Customer {
 
+    /*
+     * Feel free to add more fields to this class as needed.
+     */
+
     private int id;
     private String name;
     private int age;
